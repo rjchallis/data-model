@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>data model</title>
+  </head>
+  <body>
+    <style>
+      .hexagon {
+        fill: none;
+        stroke: #000;
+        stroke-width: .5px;
+      }
+    </style>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://bl.ocks.org/mbostock/raw/7833311/d3.hexbin.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/Recordset.js"></script>
+    <script type="text/javascript" src="js/Dataset.js"></script>
+    <script>
+      var ds = new Dataset({name:"example_dataset"})
+      ds.loadMeta();
+    </script>
+  </body>
+</html>
